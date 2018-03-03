@@ -1,0 +1,32 @@
+/* component/segment.wxss */
+.topSegment {
+  width: 100vw;
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+}
+
+.selectTitleView {
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.selectTitle_normal {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #646464;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+.selectTitle_select {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #477eef;
+  letter-spacing: 0;
+  line-height: 14px;
+}

@@ -1,0 +1,7 @@
+<!--component/segment.wxml-->
+<view class='topSegment'>
+    <view wx:for='{{titles}}' class='selectTitleView' bindtap='clickSelectItem' data-value='{{item}}' wx:key='{{item}}'>
+      <view class="{{selectTitle === item ? 'selectTitle_select' : 'selectTitle_normal'}}">{{item}}</view>
+      <image src="{{selectTitle === item ? '/images/icon_more_select.png' : '/images/icon_more_normal.png'}}" style='margin-left:6px;width:8px;height:6px;'></image>
+    </view>
+  </view>
